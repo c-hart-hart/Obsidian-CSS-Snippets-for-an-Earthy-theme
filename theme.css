@@ -1,0 +1,10 @@
+/* Main Theme File */
+
+/* Import base colors */
+@import url('colors.css');
+
+/* Import component styles */
+@import url('typography.css');
+@import url('components.css');
+@import url('layout.css');
+@import url('tabs.css'); 

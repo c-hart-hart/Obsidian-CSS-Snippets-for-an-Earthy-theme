@@ -1,0 +1,43 @@
+/* Typography styles */
+
+/* Headers */
+.theme-dark .cm-header {
+    color: var(--white) !important;
+}
+
+/* Links */
+.theme-dark .cm-link, 
+.theme-dark .cm-hmd-internal-link {
+    color: var(--white) !important;
+}
+
+.theme-dark a {
+    color: var(--white);
+}
+
+/* Markdown elements */
+blockquote {
+    border-left: 2px solid var(--white);
+    background-color: var(--brown);
+}
+
+hr {
+    border-color: var(--white);
+}
+
+/* Tables */
+thead,
+tbody {
+    border: 1px solid var(--white);
+}
+
+th,
+td {
+    border: 1px solid var(--white);
+}
+
+/* Selection */
+::selection {
+    background-color: var(--white);
+    color: var(--brown);
+} 

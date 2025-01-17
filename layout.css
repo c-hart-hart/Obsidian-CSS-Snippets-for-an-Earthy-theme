@@ -1,0 +1,88 @@
+/* Layout and Workspace Elements */
+
+/* Workspace structure */
+.workspace-split {
+    border-color: var(--white);
+}
+
+.workspace-leaf {
+    border-color: var(--white);
+}
+
+.workspace-tabs {
+    border-color: var(--white);
+}
+
+/* Navigation elements */
+.nav-folder {
+    border-color: var(--white);
+}
+
+.nav-file {
+    border-color: var(--white);
+}
+
+.nav-file-title.is-active {
+    border: 1px solid var(--white);
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+/* View elements */
+.markdown-preview-view {
+    border-color: var(--white);
+}
+
+.view-header {
+    border-bottom: 1px solid var(--white);
+}
+
+/* Ribbon */
+.workspace-ribbon {
+    border-right: 1px solid var(--ribbon-vertical-border-color);
+}
+
+.workspace-ribbon.mod-right {
+    border-left: 1px solid var(--ribbon-vertical-border-color);
+    border-right: none;
+}
+
+.workspace-ribbon-collapse-btn {
+    border-right: 1px solid var(--ribbon-vertical-border-color);
+}
+
+.workspace-ribbon.is-collapsed {
+    border-right: 1px solid var(--ribbon-vertical-border-color);
+}
+
+.side-dock-ribbon {
+    border-color: var(--ribbon-vertical-border-color);
+}
+
+.side-dock-ribbon-action {
+    border-bottom: none;
+}
+
+/* Status bar */
+.status-bar {
+    border-top: 1px solid var(--white);
+}
+
+/* Workspace splits */
+.workspace-split.mod-root .workspace-leaf {
+    border-right: 1px solid var(--white);
+}
+
+.workspace-split.mod-vertical > .workspace-leaf {
+    border-bottom: 1px solid var(--white);
+}
+
+/* Resize handles */
+.workspace-leaf-resize-handle {
+    background-color: var(--white);
+    opacity: 0.2;
+}
+
+.workspace-leaf-resize-handle:hover {
+    opacity: 0.4;
+} 

@@ -1,0 +1,63 @@
+/* Base colors for the theme */
+.theme-dark,
+.theme-dark.is-focused,
+.theme-dark:not(.is-focused) {
+    /* Three colors only */
+    --color-background: #483a32;    /* Warm, earthy brown */
+    --color-text: #ffffff;          /* Pure white */
+    --color-accent: #7fb069;        /* Brighter forest green */
+
+    /* Map colors to their uses */
+    --background-primary: var(--color-background);
+    --background-secondary: var(--color-background);
+    --background-primary-alt: var(--color-background);
+    --background-secondary-alt: var(--color-background);
+    
+    /* Text colors */
+    --text-normal: var(--color-text);
+    --text-muted: var(--color-text);
+    --text-faint: var(--color-text);
+    
+    /* Interactive elements */
+    --interactive-normal: var(--color-text);
+    --interactive-hover: var(--color-text);
+    --interactive-accent: var(--color-accent);
+    --interactive-accent-hover: var(--color-accent);
+    --interactive-success: var(--color-accent);
+    
+    /* All borders use white */
+    --border-color: var(--color-text);
+    --divider-color: var(--color-text);
+    --background-modifier-border: var(--color-text);
+    --background-modifier-border-hover: var(--color-text);
+    --background-modifier-border-focus: var(--color-text);
+    --tab-outline-color: var(--color-text);
+    --tab-divider-color: var(--color-text);
+    --table-border-color: var(--color-text);
+    --blockquote-border-color: var(--color-text);
+    --panel-border-color: var(--color-text);
+    --prompt-border-color: var(--color-text);
+    --nav-item-border-color: var(--color-text);
+    --header-border-color: var(--color-text);
+    --status-bar-border-color: var(--color-text);
+    --resize-handle-color: var(--color-text);
+    --modal-border-color: var(--color-text);
+    --input-border-color: var(--color-text);
+    --vertical-tab-border-color: var(--color-text);
+    --vertical-line-color: var(--color-text);
+    --side-dock-border-color: var(--color-text);
+    --workspace-ribbon-border-color: var(--color-text);
+    --workspace-ribbon-border-hover-color: var(--color-text);
+    --workspace-leaf-border-color: var(--color-text);
+    --workspace-leaf-border-active-color: var(--color-text);
+    --workspace-split-border-color: var(--color-text);
+    --ribbon-separator-color: var(--color-text);
+    --ribbon-vertical-border-color: var(--color-text);
+    --ribbon-horizontal-border-color: var(--color-text);
+    --ribbon-edge-border-color: var(--color-text);
+    
+    /* Other modifiers */
+    --background-modifier-form-field: var(--color-background);
+    --background-modifier-success: var(--color-accent);
+    --background-modifier-error: var(--color-background);
+} 

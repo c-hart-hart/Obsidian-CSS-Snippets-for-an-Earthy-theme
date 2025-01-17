@@ -1,0 +1,100 @@
+/* UI Components */
+
+/* Buttons and interactive elements */
+button,
+.clickable-icon,
+.setting-item-control button,
+.setting-item button,
+.modal button {
+    background-color: var(--white);
+    color: var(--brown);
+    border: 1px solid var(--white);
+}
+
+button.is-active,
+.clickable-icon.is-active,
+.setting-item-control button.is-active,
+.setting-item button.is-active,
+.modal button.is-active {
+    background-color: var(--brown);
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+button:hover,
+.clickable-icon:hover,
+.setting-item-control button:hover,
+.setting-item button:hover,
+.modal button:hover {
+    opacity: 0.8;
+}
+
+/* Window control buttons */
+.titlebar-button:hover {
+    background-color: var(--color-accent) !important;
+    color: var(--color-text) !important;
+}
+
+.titlebar-button.mod-close:hover {
+    background-color: #ff4444 !important;
+    color: var(--color-text) !important;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+    border: 1px solid var(--color-text) !important;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--color-accent) !important;
+}
+
+/* Input fields */
+input,
+textarea {
+    background-color: var(--brown);
+    color: var(--white);
+    border: 1px solid var(--white) !important;
+}
+
+/* Modals and dropdowns */
+.modal,
+.menu,
+.suggestion-container,
+.dropdown,
+.popover,
+.hover-popover,
+.tooltip {
+    background-color: var(--color-background) !important;
+    border: 1px solid var(--color-text);
+}
+
+/* Settings dropdowns */
+.setting-item select,
+.setting-item-control select,
+.dropdown-select {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    border: 1px solid var(--color-text);
+}
+
+.setting-item select:hover,
+.setting-item-control select:hover,
+.dropdown-select:hover {
+    background-color: var(--color-background) !important;
+    color: var(--color-text) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: var(--white);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--brown);
+}
+
+/* Settings menu */
+.modal.mod-settings {
+    border: 1px solid var(--color-text);
+} 
