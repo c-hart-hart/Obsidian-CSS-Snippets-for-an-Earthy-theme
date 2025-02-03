@@ -7,6 +7,21 @@
     --color-text: #ffffff;          /* Pure white */
     --color-accent: #7fb069;        /* Brighter forest green */
 
+    /* Graph colors */
+    --graph-color-line: var(--color-text);
+    --graph-color-fill: var(--color-text);
+    --graph-color-text: var(--color-text);
+    --graph-color-focused: var(--color-text);
+    --graph-color-tags: var(--color-text);
+    --graph-color-attachments: var(--color-text);
+    --graph-color-unresolved: var(--color-text);
+    --graph-lines: var(--color-text);
+    --graph-line-color: var(--color-text);
+    --graph-line-highlight: var(--color-text);
+    --graph-line-highlight-color: var(--color-text);
+    --graph-line-opacity: 1;
+    --graph-line-width: 2px;
+
     /* Map colors to their uses */
     --background-primary: var(--color-background);
     --background-secondary: var(--color-background);

@@ -97,4 +97,45 @@ textarea {
 /* Settings menu */
 .modal.mod-settings {
     border: 1px solid var(--color-text);
-} 
+}
+
+/* Graph View - Clean Approach */
+:root {
+    --graph-node: #ffffff;
+    --graph-node-focused: #ffffff;
+    --graph-node-tag: #ffffff;
+    --graph-node-local: #ffffff;
+    --graph-line: rgba(255, 255, 255, 0.4);
+    --graph-line-focused: rgba(255, 255, 255, 0.8);
+    --graph-line-tag: rgba(255, 255, 255, 0.4);
+    --graph-line-local: rgba(255, 255, 255, 0.4);
+    --graph-line-highlight: rgba(255, 255, 255, 0.8);
+    --graph-line-color: rgba(255, 255, 255, 0.4);
+    --graph-line-opacity: 0.4;
+    --graph-line-width: 1px;
+}
+
+.theme-dark {
+    --graph-node: #ffffff;
+    --graph-node-focused: #ffffff;
+    --graph-node-tag: #ffffff;
+    --graph-node-local: #ffffff;
+    --graph-line: rgba(255, 255, 255, 0.4);
+    --graph-line-focused: rgba(255, 255, 255, 0.8);
+    --graph-line-tag: rgba(255, 255, 255, 0.4);
+    --graph-line-local: rgba(255, 255, 255, 0.4);
+    --graph-line-highlight: rgba(255, 255, 255, 0.8);
+    --graph-line-color: rgba(255, 255, 255, 0.4);
+    --graph-line-opacity: 0.4;
+    --graph-line-width: 1px;
+}
+
+.graph-view-container {
+    background-color: var(--brown);
+}
+
+.graph-view .graph-controls {
+    background-color: var(--brown);
+}
+
+/* Remove all other graph-related CSS */ 
